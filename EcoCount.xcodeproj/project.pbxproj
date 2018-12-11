@@ -14,6 +14,7 @@
 		D29F119B21C03F20008F8EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29F119921C03F20008F8EC4 /* LaunchScreen.storyboard */; };
 		D29F11A621C03F20008F8EC4 /* EcoCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F11A521C03F20008F8EC4 /* EcoCountTests.swift */; };
 		D29F11B121C03F20008F8EC4 /* EcoCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F11B021C03F20008F8EC4 /* EcoCountUITests.swift */; };
+		D29F11C121C0418E008F8EC4 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F11C021C0418E008F8EC4 /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D29F11AC21C03F20008F8EC4 /* EcoCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29F11B021C03F20008F8EC4 /* EcoCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoCountUITests.swift; sourceTree = "<group>"; };
 		D29F11B221C03F20008F8EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29F11C021C0418E008F8EC4 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D29F119021C03F1F008F8EC4 /* AppDelegate.swift */,
 				D29F119221C03F1F008F8EC4 /* ViewController.swift */,
+				D29F11C021C0418E008F8EC4 /* MainMenuViewController.swift */,
 				D29F119421C03F1F008F8EC4 /* Main.storyboard */,
 				D29F119721C03F20008F8EC4 /* Assets.xcassets */,
 				D29F119921C03F20008F8EC4 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29F11C121C0418E008F8EC4 /* MainMenuViewController.swift in Sources */,
 				D29F119321C03F1F008F8EC4 /* ViewController.swift in Sources */,
 				D29F119121C03F1F008F8EC4 /* AppDelegate.swift in Sources */,
 			);
